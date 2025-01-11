@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #454746;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App {
+  text-align: center;
+}
+
+.taskbar {
+  background-color: #262424; /* Ash color */
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin to create space below the taskbar */
+}
+
+.logo {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+h1 {
+  color: green; /* Green color for the Item List Manager text */
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 60px;
+  background-color: green; /* Green submit button */
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
 }
